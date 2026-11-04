@@ -5,13 +5,11 @@ from parser_utils import safe_request, save_to_excel
 
 def parse_cbr_history(days_back=30):
     data_list = []
-    today = datetime.now()
+    # Задаем жесткую дату старта: 31 октября 2026
+    end_date = datetime.strptime('31.10.2026', '%d.%m.%Y')
     
-    print("Начинаем сбор истории курсов...")
-    
-    # Идем по дням назад (от сегодня до 30 дней назад)
     for i in range(days_back):
-        date = today - timedelta(days=i)
+        date = end_date - timedelta(days=i)
         
         # Пропускаем субботу (5) и воскресенье (6)
         if date.weekday() >= 5:
@@ -35,7 +33,7 @@ def parse_cbr_history(days_back=30):
         rows = table.find_all("tr")[1:]
         
         # Берем только USD, EUR и CNY (чтобы не перегружать график)
-        target_currencies = ["USD", "EUR", "CNY"]
+        target_currencies = ["USD", "EUR", "CNY", "GBP", "JPY"]
         
         for row in rows:
             cols = row.find_all("td")
@@ -57,4 +55,4 @@ def parse_cbr_history(days_back=30):
     save_to_excel(data_list, "cbr_history.xlsx")
 
 if __name__ == "__main__":
-    parse_cbr_history(days_back=30)
+    parse_cbr_history(days_back=31)

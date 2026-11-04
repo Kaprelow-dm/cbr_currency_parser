@@ -15,7 +15,7 @@
 
 ## 📦 Установка и запуск
 1. Клонируйте репозиторий:
-    git clone https://github.com/kaprelow-dm/cbr_currency_parser.git
+    git clone https://github.com/ВАШ_НИК/cbr_currency_parser.git
     cd cbr_currency_parser
 
 2. Установите зависимости:
@@ -27,9 +27,7 @@
 
 4. 📊 Дашборд
     Файл cbr_dashboard.pbix содержит интерактивный дашборд. Для обновления данных достаточно обновить запрос в Power BI.
-
-<img width="1305" height="731" alt="dashboard" src="https://github.com/user-attachments/assets/459e8dd5-5220-4f4f-aad2-962fe1993953" />
-
+    https://dashboard.png/
 
 👨‍💻 Автор
 Telegram: @BigDiccNRG
