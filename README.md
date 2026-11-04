@@ -28,7 +28,7 @@
 4. 📊 Дашборд
     Файл cbr_dashboard.pbix содержит интерактивный дашборд. Для обновления данных достаточно обновить запрос в Power BI.
 
-<img width="1305" height="731" alt="dashboard" src="https://github.com/user-attachments/assets/9a33c98c-4015-4566-a6bd-59b37423b79d" />
+<img width="1313" height="735" alt="dashboard" src="https://github.com/user-attachments/assets/602ca827-3da2-4dc2-b38f-e8ce752e673c" />
 
 
 👨‍💻 Автор
