@@ -66,8 +66,7 @@ if not filtered_df.empty:
         )
     )
     
-    # use_container_width=True оставляем, но благодаря фиксированной высоте он будет аккуратным
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
     
     st.subheader("Текущие курсы (последняя дата)")
     latest = filtered_df.sort_values('date').groupby('letter_code').tail(1)
