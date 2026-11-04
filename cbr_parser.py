@@ -6,7 +6,7 @@ from parser_utils import safe_request, save_to_excel
 def parse_cbr_history(days_back=30):
     data_list = []
     # Задаем жесткую дату старта: 31 октября 2026
-    end_date = datetime.strptime('31.10.2026', '%d.%m.%Y')
+    end_date = datetime.now()
     
     for i in range(days_back):
         date = end_date - timedelta(days=i)
