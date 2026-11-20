@@ -16,17 +16,17 @@
 ## 📦 Установка и запуск
 1. Клонируйте репозиторий:
     git clone https://github.com/Kaprelow-dm/cbr_currency_parser.git
-        - cd cbr_currency_parser
+    - cd cbr_currency_parser
 
 2. Установите зависимости:
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 3. Запустите парсер:
-    python cbr_parser.py
-    (Скрипт создаст файл cbr_history.xlsx с данными за 30 дней).
+    - python cbr_parser.py
+    - (Скрипт создаст файл cbr_history.xlsx с данными за 30 дней).
 
 4. 📊 Дашборд
-    Файл cbr_currency_dashboard.pbit содержит интерактивный дашборд. Для обновления данных достаточно обновить запрос в Power BI.
+    - Файл cbr_currency_dashboard.pbit содержит интерактивный дашборд. Для обновления данных достаточно обновить запрос в Power BI.
 
 <img width="1313" height="735" alt="dashboard" src="https://github.com/user-attachments/assets/602ca827-3da2-4dc2-b38f-e8ce752e673c" />
 
