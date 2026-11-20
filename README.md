@@ -15,7 +15,7 @@
 
 ## 📦 Установка и запуск
 1. Клонируйте репозиторий:
-    git clone https://github.com/Kaprelow-dm/cbr_currency_parser.git
+    - cit clone https://github.com/Kaprelow-dm/cbr_currency_parser.git
     - cd cbr_currency_parser
 
 2. Установите зависимости:
