@@ -29,7 +29,3 @@
     - Файл cbr_currency_dashboard.pbit содержит интерактивный дашборд. Для обновления данных достаточно обновить запрос в Power BI.
 
 <img width="1313" height="735" alt="dashboard" src="https://github.com/user-attachments/assets/602ca827-3da2-4dc2-b38f-e8ce752e673c" />
-
-
-👨‍💻 Автор
-Telegram: @BigDiccNRG
